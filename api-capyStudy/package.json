@@ -1,0 +1,23 @@
+{
+  "name": "api-capystudy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-random-string": "^3.3.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-fileupload": "^1.5.1",
+    "mailersend": "^2.3.0",
+    "mysql2": "^3.11.4",
+    "nodemon": "^3.1.7"
+  }
+}
